@@ -185,7 +185,7 @@ if __name__ == "__main__":
         device_map=get_kbit_device_map() if quantization_config is not None else None,
         quantization_config=quantization_config,
     )
-    access_token = "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"
+    access_token = "ADD YOUR ACCESS TOKEN"
     tokenizer = AutoTokenizer.from_pretrained(model_config.model_name_or_path, token=access_token,use_fast=True, add_eos=True)
     tokenizer.pad_token = "#"
     ################
