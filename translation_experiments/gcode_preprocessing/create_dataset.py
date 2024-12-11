@@ -12,8 +12,6 @@ from extrusion import  relative_extrusion, test_extrusion
 from chunking import aligned_chunks
 from contour_flipping import flip_on_contours
 
-access_token = "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"
-
 def main(args):
     """
     Main function for aligning and processing G-code files.
